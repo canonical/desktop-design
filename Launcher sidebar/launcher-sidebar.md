@@ -1,12 +1,8 @@
 # Ubuntu theme: Launcher sidebar
 
 Dark theme
-- Background-color: `#1111111`;
-- Background-opacity: 0.9;
-
-Light theme
-- Background-color: `#1111111`;
-- Background-opacity: 0.1;
+- Background-color: `#292929`;
+- Background-opacity: 0.95;
 
 
 
