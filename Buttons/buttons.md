@@ -1,16 +1,16 @@
 # Ubuntu theme: Buttons
 
-Button styling
+### Button styling
 - Font size: 16px;
 - Padding: 9px 18px;
 - Border radius: 4px;
 
-Focus state styling
+### Focus state styling
 - Colour: `#19B6EE`;
 - Border: 1px;
 - Padding: 2px;
 
-Disabled state styling
+### Disabled state styling
 - Opacity: 0.5;
 
 ### Fill buttons
