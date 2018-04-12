@@ -1,0 +1,9 @@
+APN settings are two-dimensional. One dimension is the different connection types (MMS, Internet, VoLTE, hotspot, and so on). The other dimension is the different fields: APN name, user name, password, proxy, port, and so on.
+
+Because a phone screen is wide enough for only one column of stuff, we have to find some way of mapping those two-dimensional settings into a one-dimensional list. Android, iOS, Windows Phone, and Ubuntu all take different approaches to this problem.
+
+The Android approach is to get you to create collections of APN settings, and then enter which of the connection types each of them apply to, which is why you are told to type for example “default,mms,fota,hipri,supl”. This might be “UI that anyone can use”, but it has major problems. It’s inefficient: for example, it makes you enter a “Name:” that isn’t used for anything, and it invites you to enter MMS fields even when they’re never used. And it’s error-prone: for example, if you type “intrenet” instead of “internet”, your cellular data connection won’t work and it will be hard to see why. iOS and Windows Phone don’t have any of those problems.
+
+They avoid those problems by doing the opposite: arranging the settings by connection type, and showing only the fields that are relevant for each. The only drawback is that it’s inefficient when multiple connection types use the same settings values, because you need to copy and paste them.
+
+For Ubuntu I’m trying to get the parsimony of iOS and Windows Phone, plus the ease of sharing values between connection types provided by Android. The “Same APN as for Internet” option shown in your screenshot was an early iteration of this, but I’m working on simpler designs now.
