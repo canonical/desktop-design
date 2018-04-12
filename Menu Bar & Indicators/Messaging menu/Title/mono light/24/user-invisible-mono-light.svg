@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 15.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="24px" height="24px" viewBox="0 0 24 24" enable-background="new 0 0 24 24" xml:space="preserve">
+<path id="path4681" inkscape:connector-curvature="0" opacity="0.3" fill="#FFFFFF" enable-background="new    " d="M6,13
+	c0,0.699,0.126,1.367,0.346,1.991h11.309c0.221-0.624,0.347-1.292,0.347-1.991s-0.126-1.368-0.347-1.992H6.346
+	C6.126,11.632,6,12.301,6,13z"/>
+<linearGradient id="path4705_1_" gradientUnits="userSpaceOnUse" x1="828" y1="625.9961" x2="828" y2="614.002" gradientTransform="matrix(1 0 0 1 -816 -608)">
+	<stop  offset="0" style="stop-color:#676868"/>
+	<stop  offset="1" style="stop-color:#EAEAEA"/>
+</linearGradient>
+<path id="path4705" inkscape:connector-curvature="0" fill="url(#path4705_1_)" d="M6,12c0,0.699,0.126,1.367,0.346,1.991h11.309
+	c0.221-0.624,0.347-1.292,0.347-1.991s-0.126-1.368-0.347-1.992H6.346C6.126,10.632,6,11.301,6,12z"/>
+<linearGradient id="path4707_1_" gradientUnits="userSpaceOnUse" x1="828" y1="625.9961" x2="828" y2="614.002" gradientTransform="matrix(1 0 0 1 -816 -608)">
+	<stop  offset="0" style="stop-color:#676868"/>
+	<stop  offset="1" style="stop-color:#EAEAEA"/>
+</linearGradient>
+<path id="path4707" inkscape:connector-curvature="0" fill="url(#path4707_1_)" d="M6,12c0,0.699,0.126,1.367,0.346,1.991h11.309
+	c0.221-0.624,0.347-1.292,0.347-1.991s-0.126-1.368-0.347-1.992H6.346C6.126,10.632,6,11.301,6,12z"/>
+<radialGradient id="path4711_1_" cx="610.3379" cy="520.8154" r="5.048" gradientTransform="matrix(1.1879 0 0 1.1879 -713.0201 -610.6855)" gradientUnits="userSpaceOnUse">
+	<stop  offset="0" style="stop-color:#FFFFFF"/>
+	<stop  offset="1" style="stop-color:#FFFFFF;stop-opacity:0"/>
+</radialGradient>
+<path id="path4711" inkscape:connector-curvature="0" fill="url(#path4711_1_)" d="M6.344,10c0.823,2.331,3.043,4,5.656,4
+	s4.833-1.669,5.656-4H6.344z"/>
+</svg>
