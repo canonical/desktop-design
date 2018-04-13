@@ -1,0 +1,151 @@
+We will proceed by mocking up individual components, keeping in mind that our current long-term plan is to integrate them all into a Dash containing:
+ * search with categorized results
+ * application launcher
+ * free space for notifications
+ * Places and Trash
+ * widgets
+ * application and/or window switcher.
+
+Separately, the application launcher alone should appear to display application launch feedback.
+
+== Quick Launcher ==
+
+=== Behavior on login ===
+
+We need mockups of the launcher appearing:
+ * automatically at login
+ * manually when an Ubuntu button is clicked appearing a subtly-animated Ubuntu button to bring up the launcher.
+
+=== Presentation of applications ===
+
+ * Which applications should be shown by default?
+  * Firefox
+  * Evolution
+  * Pidgin/Empathy
+  * F-Spot
+  * Rhythmbox/Banshee
+  * OpenOffice.org
+
+ * Size of icons
+ * Size of text
+
+ * When should application names be shown?
+  * Show mockups of always vs. hover-only
+  * Beware that hover-only is touch-incompatible
+  * Ellipsize over-long names?
+
+ * Descriptions accessible at all? No, they suck
+
+ * How do we show launching apps?
+  * Immediate feedback
+  * Cursor changes
+  * Icon zooms toward you (whether it's an application or a document)
+  * Don't showing the Quick Launcher if it wasn't open already
+
+ * How do we distinguish running from non-running apps? Possibilities:
+  * We might decide to fade out non-running apps in app switcher
+  * icon itself could change
+  * glow around the icon
+  * launcher itself
+
+=== Presentation of search results ===
+
+ * show the full name
+
+=== Application browser ===
+
+Search works only if you know and remember that an application already exists on the computer. We also need a browser to show a categorized list of what’s possible. This also gives you something quick to access applications for dragging them to the quick launcher.
+
+=== Adding and removing shortcuts ===
+
+ * Some sort of subtle Customize button that takes you to an editing mode. In the editing mode:
+  * each application has a button for removing it?
+  * text saying "Drag applications to or from the launcher"
+  * like a drag-and-drop Customize Toolbar dialog, but searchable
+  * also offer applications you haven't even installed yet
+   * the first time you try it, ask for authorization
+  * everything looks fabulous
+  * you can drag stuff within the launcher to rearrange it
+  * you can drag stuff into the launcher from anywhere, not just the 
+ * Also a shortcut menu for each application, containing Launch, Keep in Launcher/Remove from Launcher, Quit.
+
+== App and/or window switcher ==
+
+Alt Tab
+
+ * mockup of window-based switcher
+ * mockup of application-based switcher
+
+== Search ==
+
+=== What are the categories and order of results? ===
+
+ * What should be included?
+  * Web search, either results or links
+  * local files
+  * bookmarks
+  * history
+  * recent documents
+  * address book
+  * calendar events
+ * plug-in mechanism so unusual applications can provide searchable data
+ * ordering results
+  * -maybe- based on what applications you have open at the time
+   * e.g. prioritize photos if you have F-Spot open
+  * -maybe- change the order based on learned behavior
+
+=== Can you limit the search scope? ===
+
+ * e.g. show just photos
+ * maybe not, maybe just scroll to them
+ * we should user-test this
+
+=== How are results presented? ===
+
+ * Location
+  * Results replace the quick launcher, places etc?
+   * Doesn't work so well if you want to drag a result to the launcher.
+    * If you start dragging, the other results fade out and the launcher+places reappear.
+    * When you drop, maybe the launcher+places fade back out and the results fade back in.
+   * Maybe an explicit button somewhere for clearing a search.
+ * Layout
+  * in rows
+  * each result has an icon plus text by default
+  * maybe a slider for changing the size of results
+ * Issue: if there are many results in an early category, the later categories may be invisible.
+  * Have a thumbnail navigator showing your currently-visible section?
+ * Grouping and sorting
+  * by time (e.g. touching a time slider, or selecting from a calendar)
+  * by kind (e.g. photos vs. system settings categories)
+  * by tag (for photos)
+ * Expanding/contracting the search
+  * by starting letter (e.g. iPhone's Contacts index)
+
+ * "I want a photo that I took the same day that I had that meeting about X"
+ * How will people tell what touching particular parts will do?
+ * How can you keep search results around for multiple accesses?
+ * How can you drag a result to a particular window?
+  * Drag to the application icon, wait, then drag to the window thumbnail, wait, then drag to the appropriate place in the window.
+
+=== How is lack of results presented? ===
+
+ * Search Google should always be there
+
+=== What can you do with results? ===
+
+ * Launching multiple results
+
+=== How many results? How to present overflow? ===
+
+=== Should we encourage moving common results to the Launcher? ===
+
+=== Should you be able to leave results open while doing something else? ===
+
+== Places and Trash ==
+
+== Widgets ==
+
+== Power ==
+
+ * Power button in the Dash brings up a power layer
+ * Wi-fi item in the Dash brings up a list of wireless networks in its own Dash layer

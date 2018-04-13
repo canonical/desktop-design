@@ -1,0 +1,22 @@
+I suggest restructuring the document with sections answering each of these questions:
+
+Why would someone use a tile or gadget?
+- Give half a dozen tangible examples.
+  - Some should have multiple views, some should have single views.
+
+Where will I find tiles and gadgets?
+- How will I install the tile/gadget for the Web site I'm visiting?
+- How will I make a tile/gadget for a Web site that doesn't have a custom one?
+
+How do I place a tile or gadget?
+- How will it be placed on first installation?
+- How do I move it later on?
+- Can I have a tile or gadget outside the Dash? Why or why not?
+  - If so, how do I move it to and from the Dash?
+
+
+
+How do I tell whether a {tile, gadget, desktop} I'm looking at has a {gadget, desktop, tile} version?
+
+How do I switch from {tile, gadget, desktop} view to {gadget, desktop, tile} view?
+
