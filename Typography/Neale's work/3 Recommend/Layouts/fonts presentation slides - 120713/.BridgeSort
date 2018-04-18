@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes' ?>
+<dirinfo>
+<files>
+<item key='title.png20120712154644' />
+<item key='hinting.png20120712153546' />
+<item key='chrome-auri.png20120712155004' />
+<item key='osx.png20120712155112' />
+<item key='windows.png20120712155243' />
+<item key='ubuntu.png20120712155351' />
+<item key='scale.png20120712153553' />
+<item key='modular-scale.png20120712153608' />
+<item key='baseline.png20120712153643' />
+<item key='spacing.png20120712153651' />
+<item key='padding.png20120712153657' />
+<item key='font-weights.png20120712153706' />
+<item key='consistency.png20120712153713' />
+<item key='whats-important.png20120712153721' />
+<item key='keyboard-current.png20120712161226' />
+<item key='spaing-applied.png20120712153916' />
+<item key='keyboard-applied.png20120712161349' />
+<item key='dialog.png20120712160751' />
+<item key='baseline-applied.png20120712153932' />
+<item key='applied.png20120712154030' />
+<item key='0-window-current.png20120712154201' />
+<item key='0-window-applied.png20120712154215' />
+<item key='0-softwarecentre-current.png20120712154250' />
+<item key='0-softwarecentre-applied.png20120712154302' />
+<item key='0-thunderbird-current.png20120712154315' />
+<item key='0-thunderbird-applied.png20120712154326' />
+<item key='in-action.png20120712154116' />
+<item key='in-action-applied.png20120712154125' />
+<item key='applied-system.png20120712154048' />
+<item key='applied-window.png20120712154101' />
+<item key='other.png20120712154136' />
+</files>
+</dirinfo>
