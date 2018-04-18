@@ -1,0 +1,20 @@
+(now at https://wiki.ubuntu.com/SoftwareCenter/SearchResults)
+
+
+
+Search string     Desired #1 result            1.0.2   r476    r477-xapian  r479    r479-xapian
+-----------------------------------------------------------------------------------------------
+bzr-gtk           bzr-gtk
+dive into python  diveintopython               absent  1       absent       2       2
+firebug           Firebug extension for Fi...  1       1       1            1       1
+flash             Adobe Flash Plugin 10        26      28      2            28      4
+genealogy         Gramps Genealogy System      1       1       1            1       1
+gnome-session     gnome-session
+linux-image       linux-image                  absent  4       1            1,5     1,2
+mythtv            MythTV Frontend              4       4       4            4       3
+openoffice        OpenOffice.org Office Suite  12      12      absent       12      2
+pinball           Emilia Pinball               2       1       1            4       1
+real-time kernel  linux-image-rt               absent  absent  absent       absent  absent
+realtime kernel   linux-image-rt               absent  absent  absent       absent  absent
+the               The Hessling Editor          absent  absent  1            1       1
+thunderbird       Mozilla Thunderbird          1       1       4            1       4
